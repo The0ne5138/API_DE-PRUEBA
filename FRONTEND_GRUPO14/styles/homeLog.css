@@ -1,0 +1,179 @@
+/* Estilo global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilo del contenedor principal */
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Estilo de la cabecera */
+  .cabecera {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  /* Estilo de la columna de servidores */
+  .columnaServers {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .columnaServers h4 {
+    font-size: 18px;
+  }
+  
+    /* Estilo de la lista de servidores */
+    .listaServidores {
+      padding: 5px 10px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-bottom: 5px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .listaServidores:hover {
+      background-color: #f0f0f0;
+    }
+
+    /* Estilo de los botonos e iconos */
+    .perfil,
+    .crearCanal,
+    .crearServidor,
+    .exploraServidor,
+    .perfilUsuario,
+    .logout{
+      display: flex;
+      align-items: center;
+    }
+    
+    /* Estilo de los botones */
+    .crearCanal-btn,
+    .crearServidor-btn,
+    .exploraServidor-btn,
+    .perfilUsuario-btn,
+    #logout-btn{
+      width: 100px;
+      height: 55px;
+      background-color: #82868a;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .crearCanal-btn:hover,
+    .crearServidor-btn:hover,
+    .exploraServidor-btn:hover,
+    .perfilUsuario-btn:hover,
+    #logout-btn:hover{
+      background-color: black;
+    }
+
+    
+    /* Estilo de los iconos */
+    .icon{
+      width: 40px;
+      height: 35px;
+      flex-shrink: 0;
+      fill: #424242;
+    }
+  
+
+  /* Estilo de la columna de canales */
+  .columnaCanales {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .columnaCanales h2 {
+    font-size: 18px;
+  }
+
+    .crearCanal-btn  {
+      background-color: #82868a;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+      
+    .crearCanal-btn:hover {
+      background-color: black;
+    }
+  
+  /* Estilo del chat */
+  .columnaMensajes {
+    flex: 3; /* Distribuye el espacio disponible de manera uniforme entre las columnas */
+    border: 1px solid #d2f4b6; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+
+    body {
+        font-family: Arial, sans-serif;
+        
+    }
+
+    #chat-container {
+        width: 300px;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(186, 227, 241);
+    }
+
+    #chat-messages {
+        height: 200px;
+        overflow-y: scroll;
+        border: 1px solid #ccc;
+        padding: 5px;
+        margin-bottom: 10px;
+        background-color: rgb(150, 226, 240);
+    }
+
+    #message-input {
+        width: 100%;
+        padding: 3px;
+        background-color: rgba(251, 251, 239, 0.996);
+    }
+
+    #send-button {
+        background-color: rgb(98, 91, 238);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+  

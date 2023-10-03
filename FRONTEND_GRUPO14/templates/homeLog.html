@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" type="text/css" href="../styles/homeLog.css">
+    
+    
+</head>
+
+<body>
+    <div class = "cabecera"> Concord </div>
+    <div class="container">
+        <div class="columnaServers">
+            <h4>  Tus Servers</h4>
+            <div class="listaServidores">
+                <!-- <h6>Servidores si es que el usuario esta en alguno sino no mostrara nada.</h6>-->
+                <div id="listarServidores"></div>
+            </div>
+
+            <div class="crearServidor">
+                <!--<h6>Crear Servidor</h6>-->
+                <img class="icon" src="../assets/add-server.svg" alt="">
+                <button class="crearServidor-btn">Crear Servidor</button>
+            </div>
+
+            <div class="exploraServidor">
+                <!--<h6>Buscar Servidor</h6>-->
+                <img class="icon" src="../assets/find2.svg" alt="">
+                <button class="exploraServidor-btn">Explorar Servidores</button>
+            </div>
+
+            <div class="perfilUsuario">
+                <!-- Perfil del usuario -->
+               <a href="profile.html" class="perfil"> 
+                    <img class="icon" src="../assets/profile2.svg" alt="">
+                    <button class="perfilUsuario-btn">Perfil</button>
+                </a>
+            </div>
+            
+            <div class="logout">
+                <img class="icon" src="../assets/logout.svg" alt="">
+                <button id="logout-btn">Logout</button>
+            </div>
+        </div>
+
+        <div class="columnaCanales">
+            <!-- Columna de canales -->
+            <h2> Canales </h2>
+
+            <div class="listarCanales">
+                <div id="listarCanales"></div>
+            </div>
+
+            <div class="crearCanal">
+                <!--<h6>Crear Canal</h6>-->
+                <img class="icon" src="../assets/add-server.svg" alt="">
+                <button class="crearCanal-btn">Añadir Canal</button>
+            </div>
+        </div>
+
+        <div class="columnaMensajes">
+            <div id="chat-container">
+                <h2>Mensajes del Servidor</h2>
+                <div id="chat-messages"></div>
+                <input type="text" id="message-input" placeholder="Escribe un mensaje">
+                <button id="send-button">Enviar</button>
+            </div>
+        </div>
+      
+    </div>
+
+    <script src="../scripts/homeLog.js"></script>
+    <script src="../scripts/homeChat.js"></script>
+    <script src="../scripts/profile.js"></script>
+    <script src="../scripts/listar_servidores.js"></script>
+    <script src="../scripts/listar_canales.js"></script>
+    <script src="../scripts/listar_mensajes.js"></script>
+</body>
+</html>

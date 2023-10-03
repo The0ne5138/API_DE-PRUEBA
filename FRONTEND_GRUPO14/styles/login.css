@@ -1,0 +1,42 @@
+/* Formulario de login */
+form#loginForm {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+h1{text-align: center;
+
+}
+/* Etiquetas de los campos de texto */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Campos de texto */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Botón de envío */
+button[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Mensaje de error o éxito */
+#message {
+    text-align: center;
+    color: red;
+}

@@ -1,0 +1,102 @@
+.cabecera{
+    /*flex: 1; /* Distribuye el espacio disponible de manera uniforme entre las columnas */
+    padding: 20px;
+    border: 1px solid gray; 
+    flex-direction: row; 
+    text-align: center;
+    
+    background-color:khaki;
+    justify-content: center;
+}
+
+/* Agregar estilos para los contenedores de las columnas */
+.container {
+    display: flex; /* Muestra los elementos secundarios en línea */
+    background-color: white;
+}
+
+.columnaServers {
+    flex: 1; /* Distribuye el espacio disponible de manera uniforme entre las columnas */
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+    border: 1px solid gray; 
+    background-color:beige;
+}
+
+/* Estilo para la columna de servidores 
+.servers {
+    flex: 1;                          Distribuye el espacio disponible de manera uniforme entre las columnas 
+    padding: 20px;                    
+    border: 1px solid #ccc;           
+    display: flex;                    Muestra los elementos secundarios en línea 
+    flex-direction: column;           Mostrar elementos secundarios en columna 
+    background-color: aquamarine;
+} 
+*/
+
+/* Estilo para la lista de servidores */
+.listaServidores {
+    /*margin-top: auto;*/
+    /* Estilos para la lista de servidores, como margen, espaciado, etc. */
+    background-color:beige;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.server {
+    /*margin-top: auto;*/
+    /* Estilos para cada servidor en la lista */
+    background-color: wheat;
+}
+
+/* Estilo para el botón de crear servidor */
+.crearServidor {
+    margin-top: auto;
+    /* Estilos para la fila del botón de crear servidor */
+    background-color:darkkhaki;
+}
+
+.crearServidor-btn {
+    margin-top: auto;
+    /* Estilos para el botón de crear servidor */
+    background-color:darkkhaki;
+}
+
+/* Estilo para el botón de explorar servidores */
+.exploraServidor {                  /* Estilos para la fila del botón de explorar servidores */
+    margin-top: auto;
+    background-color:antiquewhite ;
+}
+
+.exploraServidor-btn {              /* Estilos para el botón de explorar servidores */
+    /*margin-top: auto;*/
+    background-color:beige;
+}
+
+.perfilUsuario {                  /* Estilo para el perfil del usuario */
+    /*margin-top: auto;           /* Empuja el perfil hacia la parte inferior de la columna */
+    padding: 20px;              
+    border: 5px solid #0000; 
+    background-color:beige;
+    /*align-items: flex-end;*/
+}
+
+.perfilUsuario-btn {            /* Estilos para el botón de explorar servidores */
+   /* margin-top: auto;*/
+   /* background-color: green;*/
+    align-items: flex-end;
+}
+
+.columnaCanales {
+    flex: 2;                    
+    padding: 20px;              
+    border: 1px solid gray; 
+    background-color:darksalmon;
+}
+
+
+
+
+
+
