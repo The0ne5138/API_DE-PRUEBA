@@ -18,7 +18,7 @@ def init_app():
     DatabaseConnection.set_config(app.config)
 
     app.register_blueprint(auth_bp, url_prefix = '/auth')
-    app.register_blueprint(usuario_bp)  ## app.register_blueprint(usuario_bp, url_prefix = '/usuario') #MODIFICAR EL ACTOR_BP
+    app.register_blueprint(usuario_bp )  ## app.register_blueprint(usuario_bp, url_prefix = '/usuario') #MODIFICAR EL ACTOR_BP
                                       ## AGREGAR LOS DEMAS BLUEPRINTS (uno por c/clase)
     app.register_blueprint(servidor_bp)
     app.register_blueprint(canal_bp)
