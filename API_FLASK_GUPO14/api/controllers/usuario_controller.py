@@ -54,7 +54,7 @@ class UsuarioController:
     
     @classmethod
     def get_usuario(cls, id_usuario):
-        usuario_instance = Usuario.get_usuario(id_usuario)
+        usuario_instance = Usuario.get_usuario_id(id_usuario)
 
         if usuario_instance:
             response_data = {"id": usuario_instance.id_usuario,
